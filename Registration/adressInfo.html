@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>Registration</title>
+        <link rel="stylesheet" href="registration.css">
+    </head>
+
+    <body>
+        <div id="header">
+            <h1>Registration List</h1>
+        </div>
+
+        <div id="registrationList">
+            <p id="personal">Personal Info</p>           
+            <p id="contact">Contact Info</p>           
+            <p id="adress">Adress Info</p>
+        </div>
+
+        <div id="personalInfo">
+            <form action="">
+            <fieldset><legend>Adress Info</legend>
+                <table>
+                    <tr>
+                        <td align="right"><span>Country:</span></td>
+                        <td><label for="country">
+                            <input type="text" name="country" id="country" size="25" required>
+                        </label></td>                    
+                    </tr>
+                    <tr><td>&nbsp;</td></tr>
+                    <tr>
+                        <td align="right"><span>Governorate:</span></td>
+                        <td>
+                            <label for="governorate">
+                                <select name="governorate" id="governorate">
+                                    <option value="Beq">Beqaa</option>
+                                    <option value="Nab">Nabatieh</option>
+                                    <option value="Her">Hermel</option>
+                                    <option value="Bey">Beiurt</option>
+                                    <option value="MNL">Mount Lebanon</option>
+                                    <option value="SUD">South </option>
+                                    <option value="Akk">Akkar</option>
+                                    <option value="Keser">Keserwan</option>
+                                    <option value="NOR">North</option>
+                                </select>
+                            </label>
+                        </td>                   
+                    </tr>
+                    <tr><td>&nbsp;</td></tr>
+                    <tr>
+                        <td align="right"><span> District:</span></td>
+                        <td>
+                        <select name="district" id="district">
+                        <option value="Batro">Batroun</option>
+                        <option value="Koura">Koura</option>
+                        <option value="Dan">Danniyeh</option>
+                        <option value="Bshar">Bsharri</option>
+                        <option value="TRIPO">Tripoli</option>
+                        <option value="Zghar">Zgharta</option>
+                        <option value="Rash">Rashaya</option>
+                        <option value="Zah">Zahle</option>
+                        <option value="Byb">Byblos</option>
+                        <option value="Aley">Aley</option>
+                        <option value="Chouf">Chouf</option>
+                        <option value="Matn">Matn</option>
+                        <option value="Nabat">Nabatieh</option>
+                        <option value="Baabda">Baabda</option>
+                        <option value="Keserwan">Keserwan</option>
+                        <option value="Baalbek">Baalbek</option>
+                    </select>
+                        </td>
+                    </tr>
+                    <tr><td>&nbsp;</td></tr>
+                    <tr>
+                        <td align="right"><span>City or Town:</span></td>
+                        <td>
+                            <input type="text" name="village" id="village" size="25" required>
+                        </td>
+                    </tr>
+                    <tr><td>&nbsp;</td></tr>
+                    <tr>
+                        <td align="right"><span>Street Name:</span></td>
+                        <td><input type="text" name="street" id="street" size="25" required></td>
+                    </tr>
+                    <tr><td>&nbsp;</td></tr>
+                    <tr>
+                        <td><span>Building Number:</span></td>
+                        <td><input type="text" name="building" id="building" size="25" required></td>
+                    </tr>
+                    <tr><td>&nbsp;</td></tr>
+                    <tr>
+                        <td align="right"><span>Floor Number:</span></td>
+                        <td><input type="text" name="floor" id="floor" size="25" required></td>
+                    </tr>               
+                </table>
+            </fieldset>
+            <br>
+            <button id="previous1"><a href="/contactInfo.html">Previous Page</a></button>
+            <input type="submit" value="Sign In" id="next2">
+        </form>
+        </div>
+    </body>
+</html>

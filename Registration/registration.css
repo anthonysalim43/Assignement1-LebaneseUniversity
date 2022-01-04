@@ -1,0 +1,55 @@
+#registrationList {
+    float: left;
+    width: 180px;
+}
+
+#personalInfo {
+    float: right;
+    width: 1100px;
+}
+
+p {
+    font-weight: bold;
+}
+
+span {
+    color: #4f33ff;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#header {
+    text-align: center;
+    background-color: #66CCFF;
+}
+
+#registrationList {
+    font-size: 21px;
+}
+
+fieldset {
+    background-color: #CAE4FF;
+}
+
+a{
+    text-decoration: none;color: initial;
+}
+
+#next1 {
+    height: 50px;
+    width: 90px;
+    margin-left: 500px;
+}
+
+#previous1 {    
+    height: 50px;   
+    margin-left: 400px;
+    margin-right: 20px;
+}
+
+#next2{
+    height: 50px;
+    width: 90px;
+}
+
+button {text-align: center;}
